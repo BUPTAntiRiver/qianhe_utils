@@ -40,6 +40,8 @@ elif ! command -v uv >/dev/null 2>&1; then
   echo "   (跳过：未安装 uv)"
 else
   ( cd python && uv run --quiet pytest -q ) || fail=1
+  ( cd python && uv run --quiet ruff check . ) || fail=1
+  ( cd python && uv run --quiet ruff format --check . ) || fail=1
 fi
 
 echo "== cpp =="

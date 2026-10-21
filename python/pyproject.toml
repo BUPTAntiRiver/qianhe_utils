@@ -11,3 +11,5 @@ testpaths = ["packages"]
 [tool.ruff]
 line-length = 100
 target-version = "py310"
+# README 里的示例代码块不参与格式检查
+extend-exclude = ["*.md"]
