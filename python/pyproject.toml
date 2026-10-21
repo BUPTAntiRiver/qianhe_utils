@@ -1,0 +1,13 @@
+[tool.uv.workspace]
+members = ["packages/*"]
+
+# 所有包共用的开发依赖，装在同一个 python/.venv 里
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+testpaths = ["packages"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

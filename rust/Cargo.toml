@@ -1,0 +1,11 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.85"
+repository = "https://github.com/BUPTAntiRiver/qianhe_utils"
+
+[workspace.dependencies]
+# 多个 crate 共用的依赖在这里锁一次版本，crate 内用 `serde.workspace = true` 引用

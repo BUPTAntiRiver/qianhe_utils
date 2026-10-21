@@ -3,7 +3,7 @@
 /**
  * 瑞士轮编排引擎测试
  *
- * 运行：node --test swiss-system/tests/engine.test.js
+ * 运行：node --test web/swiss-system/tests/engine.test.js
  *
  * 测试直接从 index.html 中提取 <script id="swiss-engine">，这样发布用的
  * 单文件网页和被测引擎始终是同一份代码。

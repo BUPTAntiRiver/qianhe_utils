@@ -3,7 +3,7 @@
 /**
  * 像素画处理引擎测试
  *
- * 运行：node --test pixel-art/tests/engine.test.js
+ * 运行：node --test web/pixel-art/tests/engine.test.js
  *
  * 与网页一致：直接从 index.html 中提取 <script id="pixel-engine">。
  */

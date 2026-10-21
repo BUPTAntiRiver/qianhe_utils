@@ -67,7 +67,7 @@
 ## 测试
 
 ```bash
-node --test swiss-system/tests/engine.test.js
+node --test web/swiss-system/tests/engine.test.js
 ```
 
 测试会从 `index.html` 中提取编排引擎，覆盖首轮折叠、随机首轮、轮空轮换、重复对阵、计分、对手分/SB、排名并列、退赛、颜色平衡和导入数据校验等。

@@ -1,0 +1,27 @@
+# Rust
+/target/
+rust/target/
+
+# C++
+build/
+cmake-build-*/
+compile_commands.json
+CMakeUserPresets.json
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+python/**/*.egg-info/
+python/**/dist/
+.pyright/
+.ruff_cache/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/

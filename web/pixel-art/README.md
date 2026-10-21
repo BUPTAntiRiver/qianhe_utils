@@ -59,7 +59,7 @@
 ## 测试
 
 ```bash
-node --test pixel-art/tests/engine.test.js
+node --test web/pixel-art/tests/engine.test.js
 ```
 
 测试直接从 `index.html` 中提取 `id="pixel-engine"` 的纯 JavaScript 引擎，覆盖颜色转换、中位切分调色板、固定调色板映射、透明度处理、误差扩散与网点抖动的确定性和颜色约束。
